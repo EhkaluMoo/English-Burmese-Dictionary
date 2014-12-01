@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2999FACF1A2ACC6E00EF0DA5 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 2999FACE1A2ACC6E00EF0DA5 /* about.png */; };
+		2999FAD11A2ACFF900EF0DA5 /* 180.b.png in Resources */ = {isa = PBXBuildFile; fileRef = 2999FAD01A2ACFF900EF0DA5 /* 180.b.png */; };
+		29AB25451A2CF721005E711C /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AB25441A2CF721005E711C /* fb.png */; };
+		29AC86641A193C7800C35189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC86631A193C7800C35189 /* main.m */; };
+		29AC86671A193C7800C35189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC86661A193C7800C35189 /* AppDelegate.m */; };
+		29AC866A1A193C7900C35189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC86691A193C7900C35189 /* ViewController.m */; };
+		29AC866D1A193C7900C35189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AC866B1A193C7900C35189 /* Main.storyboard */; };
+		29AC866F1A193C7900C35189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AC866E1A193C7900C35189 /* Images.xcassets */; };
+		29AC86721A193C7900C35189 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AC86701A193C7900C35189 /* LaunchScreen.xib */; };
+		29AC867E1A193C7900C35189 /* English_Burmese_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC867D1A193C7900C35189 /* English_Burmese_DictionaryTests.m */; };
+		29AC86881A19468A00C35189 /* knu.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 29AC86871A19468A00C35189 /* knu.TTF */; };
+		29D52A6B1A2827F1008C19C4 /* search_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D52A6A1A2827F1008C19C4 /* search_home@2x.png */; };
+		29D52A741A283013008C19C4 /* RecentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D52A731A283013008C19C4 /* RecentsTableViewController.m */; };
+		29D52A771A284354008C19C4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D52A761A284354008C19C4 /* AboutViewController.m */; };
+		29D52A791A2843B3008C19C4 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 29D52A781A2843B3008C19C4 /* about.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AC86781A193C7900C35189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AC86561A193C7800C35189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AC865D1A193C7800C35189;
+			remoteInfo = "English Burmese Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2999FACE1A2ACC6E00EF0DA5 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		2999FAD01A2ACFF900EF0DA5 /* 180.b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.b.png; sourceTree = "<group>"; };
+		29AB25441A2CF721005E711C /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		29AC865E1A193C7800C35189 /* English Burmese Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Burmese Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AC86621A193C7800C35189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AC86631A193C7800C35189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29AC86651A193C7800C35189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29AC86661A193C7800C35189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29AC86681A193C7800C35189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29AC86691A193C7900C35189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29AC866C1A193C7900C35189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29AC866E1A193C7900C35189 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29AC86711A193C7900C35189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29AC86771A193C7900C35189 /* English Burmese DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English Burmese DictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AC867C1A193C7900C35189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AC867D1A193C7900C35189 /* English_Burmese_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = English_Burmese_DictionaryTests.m; sourceTree = "<group>"; };
+		29AC86871A19468A00C35189 /* knu.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = knu.TTF; sourceTree = "<group>"; };
+		29D52A6A1A2827F1008C19C4 /* search_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_home@2x.png"; sourceTree = "<group>"; };
+		29D52A721A283013008C19C4 /* RecentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsTableViewController.h; sourceTree = "<group>"; };
+		29D52A731A283013008C19C4 /* RecentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsTableViewController.m; sourceTree = "<group>"; };
+		29D52A751A284354008C19C4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		29D52A761A284354008C19C4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		29D52A781A2843B3008C19C4 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AC865B1A193C7800C35189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC86741A193C7900C35189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AC86551A193C7800C35189 = {
+			isa = PBXGroup;
+			children = (
+				2999FAD01A2ACFF900EF0DA5 /* 180.b.png */,
+				29D52A6A1A2827F1008C19C4 /* search_home@2x.png */,
+				29AC86601A193C7800C35189 /* English Burmese Dictionary */,
+				29AC867A1A193C7900C35189 /* English Burmese DictionaryTests */,
+				29AC865F1A193C7800C35189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AC865F1A193C7800C35189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AC865E1A193C7800C35189 /* English Burmese Dictionary.app */,
+				29AC86771A193C7900C35189 /* English Burmese DictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AC86601A193C7800C35189 /* English Burmese Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				29AC86661A193C7800C35189 /* AppDelegate.m */,
+				29AC86681A193C7800C35189 /* ViewController.h */,
+				29AC86691A193C7900C35189 /* ViewController.m */,
+				29AC866B1A193C7900C35189 /* Main.storyboard */,
+				29D52A751A284354008C19C4 /* AboutViewController.h */,
+				29D52A761A284354008C19C4 /* AboutViewController.m */,
+				29D52A721A283013008C19C4 /* RecentsTableViewController.h */,
+				29D52A731A283013008C19C4 /* RecentsTableViewController.m */,
+				29AC866E1A193C7900C35189 /* Images.xcassets */,
+				29AC86701A193C7900C35189 /* LaunchScreen.xib */,
+				29AC86611A193C7800C35189 /* Supporting Files */,
+			);
+			path = "English Burmese Dictionary";
+			sourceTree = "<group>";
+		};
+		29AC86611A193C7800C35189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AB25441A2CF721005E711C /* fb.png */,
+				2999FACE1A2ACC6E00EF0DA5 /* about.png */,
+				29D52A781A2843B3008C19C4 /* about.html */,
+				29AC86871A19468A00C35189 /* knu.TTF */,
+				29AC86621A193C7800C35189 /* Info.plist */,
+				29AC86631A193C7800C35189 /* main.m */,
+				29AC86651A193C7800C35189 /* AppDelegate.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AC867A1A193C7900C35189 /* English Burmese DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				29AC867D1A193C7900C35189 /* English_Burmese_DictionaryTests.m */,
+				29AC867B1A193C7900C35189 /* Supporting Files */,
+			);
+			path = "English Burmese DictionaryTests";
+			sourceTree = "<group>";
+		};
+		29AC867B1A193C7900C35189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AC867C1A193C7900C35189 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AC865D1A193C7800C35189 /* English Burmese Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC86811A193C7900C35189 /* Build configuration list for PBXNativeTarget "English Burmese Dictionary" */;
+			buildPhases = (
+				29AC865A1A193C7800C35189 /* Sources */,
+				29AC865B1A193C7800C35189 /* Frameworks */,
+				29AC865C1A193C7800C35189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "English Burmese Dictionary";
+			productName = "English Burmese Dictionary";
+			productReference = 29AC865E1A193C7800C35189 /* English Burmese Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29AC86761A193C7900C35189 /* English Burmese DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC86841A193C7900C35189 /* Build configuration list for PBXNativeTarget "English Burmese DictionaryTests" */;
+			buildPhases = (
+				29AC86731A193C7900C35189 /* Sources */,
+				29AC86741A193C7900C35189 /* Frameworks */,
+				29AC86751A193C7900C35189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AC86791A193C7900C35189 /* PBXTargetDependency */,
+			);
+			name = "English Burmese DictionaryTests";
+			productName = "English Burmese DictionaryTests";
+			productReference = 29AC86771A193C7900C35189 /* English Burmese DictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AC86561A193C7800C35189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ehkalu Moo";
+				TargetAttributes = {
+					29AC865D1A193C7800C35189 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					29AC86761A193C7900C35189 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 29AC865D1A193C7800C35189;
+					};
+				};
+			};
+			buildConfigurationList = 29AC86591A193C7800C35189 /* Build configuration list for PBXProject "English Burmese Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AC86551A193C7800C35189;
+			productRefGroup = 29AC865F1A193C7800C35189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AC865D1A193C7800C35189 /* English Burmese Dictionary */,
+				29AC86761A193C7900C35189 /* English Burmese DictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AC865C1A193C7800C35189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D52A791A2843B3008C19C4 /* about.html in Resources */,
+				29AB25451A2CF721005E711C /* fb.png in Resources */,
+				29AC866D1A193C7900C35189 /* Main.storyboard in Resources */,
+				29AC86881A19468A00C35189 /* knu.TTF in Resources */,
+				29AC86721A193C7900C35189 /* LaunchScreen.xib in Resources */,
+				29AC866F1A193C7900C35189 /* Images.xcassets in Resources */,
+				2999FAD11A2ACFF900EF0DA5 /* 180.b.png in Resources */,
+				2999FACF1A2ACC6E00EF0DA5 /* about.png in Resources */,
+				29D52A6B1A2827F1008C19C4 /* search_home@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC86751A193C7900C35189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AC865A1A193C7800C35189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC866A1A193C7900C35189 /* ViewController.m in Sources */,
+				29D52A771A284354008C19C4 /* AboutViewController.m in Sources */,
+				29AC86671A193C7800C35189 /* AppDelegate.m in Sources */,
+				29D52A741A283013008C19C4 /* RecentsTableViewController.m in Sources */,
+				29AC86641A193C7800C35189 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC86731A193C7900C35189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC867E1A193C7900C35189 /* English_Burmese_DictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AC86791A193C7900C35189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AC865D1A193C7800C35189 /* English Burmese Dictionary */;
+			targetProxy = 29AC86781A193C7900C35189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AC866B1A193C7900C35189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AC866C1A193C7900C35189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29AC86701A193C7900C35189 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AC86711A193C7900C35189 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AC867F1A193C7900C35189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29AC86801A193C7900C35189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AC86821A193C7900C35189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "English Burmese Dictionary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29AC86831A193C7900C35189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "English Burmese Dictionary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29AC86851A193C7900C35189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "English Burmese DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Burmese Dictionary.app/English Burmese Dictionary";
+			};
+			name = Debug;
+		};
+		29AC86861A193C7900C35189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "English Burmese DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Burmese Dictionary.app/English Burmese Dictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AC86591A193C7800C35189 /* Build configuration list for PBXProject "English Burmese Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC867F1A193C7900C35189 /* Debug */,
+				29AC86801A193C7900C35189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC86811A193C7900C35189 /* Build configuration list for PBXNativeTarget "English Burmese Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC86821A193C7900C35189 /* Debug */,
+				29AC86831A193C7900C35189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC86841A193C7900C35189 /* Build configuration list for PBXNativeTarget "English Burmese DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC86851A193C7900C35189 /* Debug */,
+				29AC86861A193C7900C35189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AC86561A193C7800C35189 /* Project object */;
+}
